@@ -462,24 +462,27 @@
         </div>
         <!--ffffffffff-->
         <div class="footer-input">
-          <form class="email-input">
-            <label>
-              <p class="text-name">Subscribe</p>
+          <p class="text-name">Subscribe</p>
+          <form
+            class="email-input"
+            name="subscribe"
+            autocomplete="off"
+            novalidate
+          >
+            <label class="label-meil">
               <input type="text" class="email" placeholder="E-mail" />
             </label>
-            <div class="modal-button-wrap">
-              <button type="submit" class="button-sub">
-                <span class="button-text">Subscribe</span>
-                <svg class="modal-icon">
-                  <use
-                    class="position-icons"
-                    href="images/icons(2).svg#icon-Frame-3"
-                    width="24"
-                    height="20"
-                  ></use>
-                </svg>
-              </button>
-            </div>
+            <button type="submit" class="button-sub">
+              Subscribe
+              <svg class="modal-icon">
+                <use
+                  class="position-icons"
+                  href="images/icons(2).svg#icon-Frame-3"
+                  width="24"
+                  height="20"
+                ></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
