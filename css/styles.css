@@ -587,7 +587,6 @@ align-items: baseline;
 }
 .text-name {
   color: var(--WHITE, #FFF);
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 16px;
@@ -597,7 +596,6 @@ align-items: baseline;
 }
 .email-input {
   display: flex;
-  justify-content: baseline;
   align-items: flex-end;
   gap: 24px;
 }
@@ -617,12 +615,17 @@ align-items: baseline;
   letter-spacing: 0.04em;
   width: 264px;
   height: 40px;
- 
-  margin-top: 8px;
-  
+ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 8px; 
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.email::placeholder {
+  color: #FFF;
 }
 .button-sub {
-  display: block;
+  display: flex;
   background-color: var(--IRIS, #4D5AE5);
   color: #Ffffff;
   font-family: "Roboto", sans-serif;
@@ -637,27 +640,14 @@ align-items: baseline;
   line-height: 1.5;
   letter-spacing: 0.04em;
   gap: 16px;
-  margin-left: 24px;
-  margin-right: 159px;
-  
+  cursor: pointer;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .button-sub:hover,
 .button-sub:focus {
-  cursor: pointer;
+ background-color: #404bbf;
 
 }
 .button-text {
@@ -670,15 +660,7 @@ align-items: baseline;
 }
 .modal-icon {
   display: inline-flex;
+  position: absolute;
   fill: white;
-  gap: 16px;
-  
+  gap: 16px; 
 }
-
-  
-}
-.modal-icon {
-  
-position: absolute;
-
- }
