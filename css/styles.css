@@ -660,7 +660,6 @@ margin-left: 80px;
 }
 .modal-icon {
   display: inline-flex;
-  position: absolute;
   fill: white;
   gap: 16px; 
 }
