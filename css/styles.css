@@ -665,17 +665,23 @@ margin-left: 80px;
 }
 
 
+/* modal-window-bachdrop*/
 
+.modal-backdrop {
+width: 100px;
+height: 100px;
 
-.modal-container {
-width: 1440px;
-height: 672px;
 }
 .body-window {
- width: 408px;
-height: 584px;
-top: 80px;
-left: 516px;
-border-radius: 4px;
-      
+width: 1440px;
+  height: 600px; 
+  background: url(../images/people-office.jpg), no-repeat;
+  opacity: 0.7;
+}
+.button-modal {
+display: flex;
+flex-direction: column;
+}
+.close-window {
+  
 }
