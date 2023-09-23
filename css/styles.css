@@ -874,6 +874,13 @@ border-color: #4D5AE5;
   align-items: center;
   justify-content: center;
 }
+
+.privacy-icon:hover,
+privacy-icon:focus {
+fill: var(--OCEAN, #404BBF);
+  stroke-width: 1px;
+  stroke: var(--OCEAN, #404BBF);
+}
 .accept {
   color: #4D5AE5;
 }
