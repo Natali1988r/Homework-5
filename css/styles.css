@@ -671,7 +671,7 @@ margin-left: 80px;
 /* modal-window-bachdrop*/
 
 .backdrop {
-  display: flex;
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -855,10 +855,11 @@ border-color: #4D5AE5;
   margin-bottom: 24px;
 }
 .checkbox-input:checked + .privacy-label > .text-policy {
-  fill: #F4F4FD;
   background-color: #404BBF;
-  border: none;
-}
+  border: none; 
+  fill: #FFFFFF;
+  border-color: #404BBF;
+  }
 .privacy-label {
   color: #8e8f99;
   height: 16px;
