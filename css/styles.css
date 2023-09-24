@@ -857,7 +857,7 @@ border-color: #4D5AE5;
 .checkbox-input:checked + .privacy-label > .text-policy {
   background-color: #404BBF;
   border: none; 
-  fill: #FFFFFF;
+  fill:#F4F4FD;
   border-color: #404BBF;
   }
 .privacy-label {
