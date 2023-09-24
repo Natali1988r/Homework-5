@@ -212,6 +212,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
     letter-spacing: 0.02em;
     max-width: 496px; 
+    margin-bottom: 48px;
  }
  .button-primary {
   background-color: #4D5AE5;
@@ -227,7 +228,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 48px;
+  
   gap: 10px;
   height: 56px;
   cursor: pointer;
@@ -867,7 +868,7 @@ border-color: #4D5AE5;
     align-self: center;
     cursor: pointer;
 }
-.text-policy{
+.text-policy {
   display: inline-flex;
   align-items: center;
   justify-content: center;
